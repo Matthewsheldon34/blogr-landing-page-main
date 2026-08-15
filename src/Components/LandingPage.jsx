@@ -307,7 +307,7 @@ function LandingPage() {
               </div>
               <div className="mb-30 text-[hsl(208,49%,24%)] p-1 relative justify-center items-center w-auto text-center lg:text-left md:text-left lg:auto md:auto">
                 <h1 className="text-xl font-bold p-3">Robust content management</h1>
-                <div className="text-[hsl(208,49%,24%)] p-5 w-127.5 md:w-127.5 lg:127.5">
+                <div className="text-[hsl(208,49%,24%)] p-5 w-auto md:w-127.5 lg:127.5">
                   <p className="text-[hsl(207,13%,34%)]">
                     Flexible content management enables users to easily move through posts. Increase the usability of your blog 
                     by adding customized categories, sections, format, or flow. With this functionality, you're in full control.
