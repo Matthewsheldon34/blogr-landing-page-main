@@ -289,9 +289,12 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="justify-center p-5 w-auto items-center">
+        <div className=" relative justify-center p-5  w-auto md:auto items-center">
           <h1 className="text-3xl font-bold text-[hsl(208,49%,24%)] text-center p-5">Designed for the future</h1>
-          <img src={IllustrationEditorMobile} alt="" className="w-auto block md:block lg:hidden"/>
+          <div className="relative p-5 w-auto flex justify-center md:auto ">
+  <img src={IllustrationEditorMobile} alt="" className=" block md:block md:auto lg:hidden"/>
+          </div>
+      
           <div className="relative lg:flex  md:grid justify-center p-5 w-auto items-center">
             <div className="gap-4 p-1 w-auto">
               <div className="relative justify-center items-center w-auto text-center lg:text-left md:text-left lg:auto md:auto">
@@ -338,21 +341,23 @@ function LandingPage() {
           <div className="relative grid lg:flex md:grid gap-4 p-1 md:w-auto lg:w-auto">
             <img src={IllustrateLaptop} alt="Description of the image" className="w-125 h-auto hidden md:block md:h-auto md:w-auto lg:w-125 lg:block"/>
             <img src={Illustratelaptop} alt="Description of the image" className="w-125 h-auto md:hidden  md:w-auto block lg:hidden"/>
-            <div className="relative  p-1 w-auto md:w-auto lg:w-auto ">
-              <div className="relative justify-center items-center w-auto text-center lg:text-left md:text-left lg:auto md:w-auto p-5">
-                <h1 className="text-xl font-bold p-3 text-[hsl(208,49%,24%)]">Free, open, simple</h1>
-                <div className="relative text-[hsl(207,13%,34%)] p-1 w-auto justify-center items-center md:w-auto lg:w-127.5">
-                  <p className="text-[hsl(207,13%,34%)] justify-center p-1">
+            <div className="w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12 ">
+              <div className="space-y-12 md:space-y-16">
+              
+                <div className=" text-[hsl(207,13%,34%)] text-center md:text-left max-w-2xl mx-auto md:mx-0">
+                  <h1 className="text-xl font-bold p-3 text-[hsl(208,49%,24%)] max-w-2xl mx-auto md:px-0 p-1">Free, open, simple</h1>
+                  <p className="text-[hsl(207,13%,34%)] justify-center p-1 md:text-left">
                     Blogr is a free and open source application backed by a large community of helpful developers. It supports 
                     features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
                     and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
                   </p>
                 </div>
               </div>
-              <div className="p-5 relative justify-center items-center w-auto text-center lg:text-left md:text-left lg:auto md:auto">
-                <h1 className="text-xl font-bold p-3 text-[hsl(208,49%,24%)]">Powerful tooling</h1>
-                <div className="text-[hsl(207,13%,34%)] p-1 w-auto justify-center items-center md:w-auto lg:w-127.5">
-                  <p className="text-[hsl(207,13%,34%)] p-1">
+
+              <div className=" mx-auto md:mx-0 text-center md:text-left  mb-10">
+                <h1 className="text-xl md:text-2xl lg:text-3xl font-bold p-3 text-[hsl(208,49%,24%)]">Powerful tooling</h1>
+                <div className="text-[hsl(207,13%,34%)] ">
+                  <p className="text-[hsl(207,13%,34%)] p-1    ">
                     Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.
                   </p>
                 </div>
