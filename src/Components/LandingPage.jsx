@@ -345,7 +345,7 @@ function LandingPage() {
               <div className="space-y-12 md:space-y-16">
               
                 <div className=" text-[hsl(207,13%,34%)] text-center md:text-left max-w-2xl mx-auto md:mx-0">
-                  <h1 className="text-xl font-bold p-3 text-[hsl(208,49%,24%)] max-w-2xl mx-auto md:px-0 p-1">Free, open, simple</h1>
+                  <h1 className="text-xl font-bold p-3 text-[hsl(208,49%,24%)] max-w-2xl mx-auto md:px-0 ">Free, open, simple</h1>
                   <p className="text-[hsl(207,13%,34%)] justify-center p-1 md:text-left">
                     Blogr is a free and open source application backed by a large community of helpful developers. It supports 
                     features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
